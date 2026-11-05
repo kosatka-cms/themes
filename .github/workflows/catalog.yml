@@ -1,0 +1,56 @@
+# The themes catalog: every pull request builds it with the list as
+# changed (a theme that can't be installed fails the build); main and a
+# daily run build it and publish index.json to GitHub Pages (Settings →
+# Pages → Source: GitHub Actions) - the stars and new releases follow.
+name: catalog
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "41 4 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: catalog-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  APP: github.com/kosatka-cms/kosatka/cmd/app@main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-go@v7
+        with:
+          go-version: stable
+      # A theme left out (no release, a broken manifest) fails a pull
+      # request; on main the others are published all the same.
+      - run: |
+          mkdir -p dist
+          go run "$APP" theme index -list themes.txt -out dist/index.json 2> errors.txt || { cat errors.txt; exit 1; }
+          cat errors.txt
+          if [ "$GITHUB_EVENT_NAME" = pull_request ] && grep -q "left out:" errors.txt; then exit 1; fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main' && github.repository == 'kosatka-cms/themes'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
