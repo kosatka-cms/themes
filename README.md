@@ -9,12 +9,60 @@ a list of the themes' repositories (`themes.txt`), built every day into
 
 Each theme lives in a repository of its own; this one only lists them.
 
+## The themes
+
+### [C64](https://github.com/kosatka-cms/kosatka-theme-c64)
+
+[![C64](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-c64/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-c64)
+
+The Commodore 64's screen - the boot message, the main menu as a BASIC
+listing, PETSCII frames in the machine's sixteen colours.
+
+`retro` `dark` `pixel` `responsive`
+
+```bash
+app theme add https://github.com/kosatka-cms/kosatka-theme-c64
+```
+
+### [Respawn](https://github.com/kosatka-cms/kosatka-theme-respawn)
+
+[![Respawn](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-respawn/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-respawn)
+
+A light portal of news and reviews - a white header with the menu and a
+search, cards on light grey, a list field's options as coloured badges,
+a dark footer.
+
+`light` `cards` `portal` `responsive`
+
+```bash
+app theme add https://github.com/kosatka-cms/kosatka-theme-respawn
+```
+
+### [Terminal](https://github.com/kosatka-cms/kosatka-theme-terminal)
+
+[![Terminal](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-terminal/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-terminal)
+
+A technical blog in a terminal - a prompt in the header, monospace
+headings and dates, code blocks with highlighting and a copy button, the
+contents of a long text, colour palettes, a dark and a light scheme.
+
+`dark` `light` `monospace` `blog` `responsive`
+
+```bash
+app theme add https://github.com/kosatka-cms/kosatka-theme-terminal
+```
+
+Then commit `themes/` and choose the theme on *Appearance*. Each theme's
+README has its settings.
+
 ## Adding a theme
 
 1. Make sure the theme meets the requirements below and has a release (a
    tag `vX.Y.Z`).
 2. Fork this repository and add the theme's repository address to
-   `themes.txt`, in alphabetical order.
+   `themes.txt`, in alphabetical order, and the theme to *The themes*
+   above, in the same order: its name, screenshot, description, tags and
+   install command, as the others.
 3. Open a pull request. Its check builds the catalog with your theme:
    a theme that can't be installed (no release, a broken `theme.yaml`)
    fails it.
