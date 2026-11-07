@@ -2,5 +2,6 @@
 # A pull request adding a line adds a theme (see README.md).
 https://github.com/kosatka-cms/kosatka-theme-c64
 https://github.com/kosatka-cms/kosatka-theme-galley
+https://github.com/kosatka-cms/kosatka-theme-harbor
 https://github.com/kosatka-cms/kosatka-theme-respawn
 https://github.com/kosatka-cms/kosatka-theme-terminal

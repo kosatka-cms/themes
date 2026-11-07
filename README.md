@@ -38,6 +38,21 @@ instead of cards, an accent colour, a light and a dark scheme.
 app theme add https://github.com/kosatka-cms/kosatka-theme-galley
 ```
 
+### [Harbor](https://github.com/kosatka-cms/kosatka-theme-harbor)
+
+[![Harbor](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-harbor/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-harbor)
+
+A classic blog of cards and a sidebar - the pinned item as a wide card,
+the others in two columns, the sidebar's blocks as cards, the contents
+of a long text beside it, a dark footer in columns, an accent colour, a
+light and a dark scheme.
+
+`light` `dark` `cards` `blog` `sidebar` `responsive`
+
+```bash
+app theme add https://github.com/kosatka-cms/kosatka-theme-harbor
+```
+
 ### [Respawn](https://github.com/kosatka-cms/kosatka-theme-respawn)
 
 [![Respawn](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-respawn/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-respawn)
