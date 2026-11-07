@@ -1,5 +1,6 @@
 # The themes of the catalog: a repository a line, in alphabetical order.
 # A pull request adding a line adds a theme (see README.md).
 https://github.com/kosatka-cms/kosatka-theme-c64
+https://github.com/kosatka-cms/kosatka-theme-galley
 https://github.com/kosatka-cms/kosatka-theme-respawn
 https://github.com/kosatka-cms/kosatka-theme-terminal

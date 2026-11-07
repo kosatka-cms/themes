@@ -24,6 +24,20 @@ listing, PETSCII frames in the machine's sixteen colours.
 app theme add https://github.com/kosatka-cms/kosatka-theme-c64
 ```
 
+### [Galley](https://github.com/kosatka-cms/kosatka-theme-galley)
+
+[![Galley](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-galley/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-galley)
+
+A blog in one reading column - serif type, a wide cover over an article,
+the author and sharing under it, an accent colour, a light and a dark
+scheme.
+
+`light` `dark` `serif` `blog` `one-column` `responsive`
+
+```bash
+app theme add https://github.com/kosatka-cms/kosatka-theme-galley
+```
+
 ### [Respawn](https://github.com/kosatka-cms/kosatka-theme-respawn)
 
 [![Respawn](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-respawn/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-respawn)
