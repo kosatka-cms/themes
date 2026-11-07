@@ -28,11 +28,11 @@ app theme add https://github.com/kosatka-cms/kosatka-theme-c64
 
 [![Galley](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-galley/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-galley)
 
-A blog in one reading column - serif type, a wide cover over an article,
-the author and sharing under it, an accent colour, a light and a dark
-scheme.
+A blog set like a printed page - a reading column and a margin with the
+blocks, the byline and the contents, the site's name as a wordmark, rules
+instead of cards, an accent colour, a light and a dark scheme.
 
-`light` `dark` `serif` `blog` `one-column` `responsive`
+`light` `dark` `serif` `blog` `typographic` `responsive`
 
 ```bash
 app theme add https://github.com/kosatka-cms/kosatka-theme-galley
