@@ -53,6 +53,21 @@ light and a dark scheme.
 app theme add https://github.com/kosatka-cms/kosatka-theme-harbor
 ```
 
+### [Keel](https://github.com/kosatka-cms/kosatka-theme-keel)
+
+[![Keel](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-keel/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-keel)
+
+A company's site - a front page of bands (a hero, a dark band with
+figures, bands in white and grey, a call to action with a form), each
+made of blocks; services and projects as cards, the team, quotes from
+clients; an accent colour. Comes with a demo site.
+
+`light` `business` `company` `landing` `cards` `responsive`
+
+```bash
+app theme add https://github.com/kosatka-cms/kosatka-theme-keel
+```
+
 ### [Respawn](https://github.com/kosatka-cms/kosatka-theme-respawn)
 
 [![Respawn](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-respawn/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-respawn)
