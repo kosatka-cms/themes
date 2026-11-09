@@ -5,4 +5,5 @@ https://github.com/kosatka-cms/kosatka-theme-galley
 https://github.com/kosatka-cms/kosatka-theme-harbor
 https://github.com/kosatka-cms/kosatka-theme-keel
 https://github.com/kosatka-cms/kosatka-theme-respawn
+https://github.com/kosatka-cms/kosatka-theme-rivet
 https://github.com/kosatka-cms/kosatka-theme-terminal

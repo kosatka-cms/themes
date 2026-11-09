@@ -82,6 +82,23 @@ a dark footer.
 app theme add https://github.com/kosatka-cms/kosatka-theme-respawn
 ```
 
+### [Rivet](https://github.com/kosatka-cms/kosatka-theme-rivet)
+
+[![Rivet](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-rivet/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-rivet)
+
+An industrial company's site - a dark top bar, a front page of bands (a
+hero slider, figures in the accent, products as cards, projects as dark
+tiles, a call to action with a form), products with a gallery and a
+table of their fields, projects with their picture behind the title;
+condensed capitals, square corners, an accent colour. Comes with a demo
+site.
+
+`light` `dark` `business` `company` `industrial` `landing` `cards` `responsive`
+
+```bash
+app theme add https://github.com/kosatka-cms/kosatka-theme-rivet
+```
+
 ### [Terminal](https://github.com/kosatka-cms/kosatka-theme-terminal)
 
 [![Terminal](https://raw.githubusercontent.com/kosatka-cms/kosatka-theme-terminal/main/static/screenshot.jpg)](https://github.com/kosatka-cms/kosatka-theme-terminal)
